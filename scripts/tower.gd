@@ -1,5 +1,5 @@
 extends Node2D
-var projectile_scene = load("res://projectile.tscn")
+var projectile_scene = load("res://scenes/projectile.tscn")
 
 @export var hp = 100
 @export var attack_speed = 2

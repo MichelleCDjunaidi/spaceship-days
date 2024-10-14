@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://s0n3wfar8602"]
 
-[ext_resource type="Script" path="res://tower.gd" id="1_26ym5"]
-[ext_resource type="Texture2D" uid="uid://pbmijq4x4nkk" path="res://icon.svg" id="2_fkwmy"]
+[ext_resource type="Script" path="res://scripts/tower.gd" id="1_nagw7"]
+[ext_resource type="Texture2D" uid="uid://pbmijq4x4nkk" path="res://icon.svg" id="2_goncc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_wq2p4"]
 radius = 76.0592
@@ -10,11 +10,11 @@ radius = 76.0592
 size = Vector2(493, 123)
 
 [node name="Tower" type="Node2D"]
-script = ExtResource("1_26ym5")
+script = ExtResource("1_nagw7")
 can_attack = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_fkwmy")
+texture = ExtResource("2_goncc")
 
 [node name="Hitbox" type="Area2D" parent="."]
 

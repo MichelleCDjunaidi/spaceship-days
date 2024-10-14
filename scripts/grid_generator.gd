@@ -5,7 +5,7 @@ extends Node2D
 @export var sprite_size = 128
 var occupied = false
 
-var grid_scene = load("res://grid_square_area.tscn")
+var grid_scene = load("res://scenes/grid_square_area.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	var rescale_ratio = 1.0*grid_size/sprite_size
