@@ -1,0 +1,3 @@
+enemy projectile interaction
+player enemy interaction
+death animation
